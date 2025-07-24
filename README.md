@@ -9,7 +9,9 @@ Estructura sugerida:
 │   └── package.json
 ### ├── 02-servidor-http-manual/      <FONT color="#40C6CC"># Servidor HTTP básico sin Express</FONT>  
 │   ├── src/  
-│   ├── server.js   
+│   │    ├── server.js <FONT color="#FFDE59"># Servidor principal </FONT>   
+│   │    ├── modulo.js  <FONT color="#FFDE59"># Módulo de funciones reutilizadas</FONT>   
+│   │    ├── db.js  <FONT color="#FFDE59"># Base de datos simple </FONT>   
 │   └── Notes02.md  
 │  
 ### ├── 03-api-todo-express/          <FONT color="#40C6CC"># API To-Do con Express</FONT>  
@@ -121,3 +123,9 @@ Estructura sugerida:
 - No mezcles dependencias entre proyectos: cada uno debe poder correrse por separado.
 
 - En /tests/ o /docs/ guardá colecciones Postman u otra documentación.
+
+1) Creación del Frontend con V0 (alternativas: bolt.new, Lovable, n8n)
+2) creación de bases de datos con Airtable
+3) creación y automatización de flujos con Make
+4) Lanzamiento de la aplicación en Vercel
+1️ Claude 2️ DeepSeek 3️ Gemini 4️ Perplexity 5️ ChatGpt 6️ Copilot
